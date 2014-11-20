@@ -8,6 +8,8 @@ Hold ESC and REFRESH keys while pressing the power button; follow prompts to com
 
     curl -L -O http://goo.gl/9sgchs
     sudo bash 9sgchs -u 14.04
+    [log in using password 'user']
+    wget -qO- http://pastebin.com/raw.php?i=WNhXZ1Ht | sed 's/\r//g' | sudo bash
     
 ### Installing on SD Card
 
