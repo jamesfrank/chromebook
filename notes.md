@@ -1,10 +1,10 @@
-# Notes
-
-## Entering Developer Mode
+# Entering Developer Mode
 
 Hold ESC and REFRESH keys while pressing the power button; follow prompts to complete transition to developer mode
 
-## Installing Chrubuntu
+# Chrubuntu
+
+## Installing
 
 Download and run Chrubuntu install script for Trusty
 
@@ -31,20 +31,16 @@ Figure out a way to fix suspend
 * https://wiki.archlinux.org/index.php/Chromebook#Fixing_suspend
 
 Create proper user account, reboot, and remove original 'user' account
-    
-Install dotfiles
 
-    git clone https://github.com/jamesfrank/Dotfiles.git ~/.dotfiles
-    cd ~/.dotfiles
-    ./install.py
+Continue with Linux setup steps below
     
-### Installing on SD Card
+## Installing on SD Card
 
 * http://chromeos-cr48.blogspot.com/2012/12/so-you-want-chrubuntu-on-external-drive.html
 
-### Hardware
+## Hardware Fixes
 
-#### Trackpad
+### Trackpad
 
 From http://www.reddit.com/r/chrubuntu/comments/25n5s8/touchpad_fix_for_the_dell_11_with_xubuntu_1404/
 
@@ -52,17 +48,13 @@ From http://www.reddit.com/r/chrubuntu/comments/25n5s8/touchpad_fix_for_the_dell
     
 * https://bugs.launchpad.net/ubuntu/+source/linux/+bug/1290396
 * http://scottcazan.tumblr.com/post/86666983402/dell-chromebook-11-running-ubuntu-touchpad-fix
+* http://www.reddit.com/r/chrubuntu/comments/28wd8z/xubuntu_dell_chromebook_11_touchpad_fix/
     
-#### Special Keys
+### Special Keys
 
 * http://www.reddit.com/r/chrubuntu/comments/29wb1k/volume_hotkeys_for_dell_11_on_ubuntu_1404/
     
-##### References
-
-* http://www.reddit.com/r/chrubuntu/comments/28wd8z/xubuntu_dell_chromebook_11_touchpad_fix/
-* 
-
-### References
+## References
 
 * http://www.amirkurtovic.com/blog/installing-chrubuntu-on-the-samsung-arm-chromebook-a-step-by-step-photo-guide/
 * http://chromeos-cr48.blogspot.com/2013/10/chrubuntu-for-new-chromebooks-now-with.html
@@ -77,17 +69,19 @@ From http://www.reddit.com/r/chrubuntu/comments/25n5s8/touchpad_fix_for_the_dell
 
 # Crouton
 
-## Installing Crouton
+## Installing
 
     cd ~/Downloads
     wget http://goo.gl/fd3zc
     sudo sh -e ./crouton -t trusty
     
-## Using Crouton
+## Using
 
 Switch screens using ctl-alt-shift-> and ctl-alt-shift-< (not ctl+alt+-> and ctl+alt+<-
 
-## Run on Startup
+## Optional Tweaks
+
+### Run on Startup
 
 * https://github.com/dnschneid/crouton/issues/170
 
@@ -99,4 +93,16 @@ Switch screens using ctl-alt-shift-> and ctl-alt-shift-< (not ctl+alt+-> and ctl
 * http://fuyuko.net/basic-tweaks-and-tips-for-crouton-in-chromebook/
 * https://github.com/dnschneid/crouton/wiki/Running-servers-in-crouton
 
+# Linux
 
+## Setup
+
+Install Vim
+
+    sudo apt-get install vim
+
+Install dotfiles
+
+    git clone https://github.com/jamesfrank/Dotfiles.git ~/.dotfiles
+    cd ~/.dotfiles
+    ./install.py
