@@ -6,10 +6,33 @@ Hold ESC and REFRESH keys while pressing the power button; follow prompts to com
 
 ## Installing Chrubuntu
 
+Download and run Chrubuntu install script for Trusty
+
     curl -L -O http://goo.gl/9sgchs
     sudo bash 9sgchs -u 14.04
-    [log in using password 'user']
+    
+Log in using username 'user' and password 'user' and conect to a wifi network
+
+Run script below to fix touchpad
+
     wget -qO- http://pastebin.com/raw.php?i=WNhXZ1Ht | sed 's/\r//g' | sudo bash
+    
+Run these commands to fix touchpad speed (these are supposed to be done in the above script, but fail for some reason)
+
+    sudo mv /usr/share/X11/xorg.conf.d/50-synaptics.conf /usr/share/X11/xorg.conf.d/50-synaptics.conf.old
+    sudo cp /usr/share/xf86-input-cmt/50-touchpad-cmt-peppy.conf /usr/share/X11/xorg.conf.d/
+    
+Fix keyboard special keys using instructions at http://www.reddit.com/r/chrubuntu/comments/1k7o1t/how_to_enable_the_volume_and_brightness_keys_on/
+
+    sudo apt-get install xbacklight
+
+Create proper user account, reboot, and remove original 'user' account
+    
+Install dotfiles
+
+    git clone https://github.com/jamesfrank/Dotfiles.git ~/.dotfiles
+    cd ~/.dotfiles
+    ./install.py
     
 ### Installing on SD Card
 
