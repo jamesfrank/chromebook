@@ -8,6 +8,10 @@ Hold ESC and REFRESH keys while pressing the power button; follow prompts to com
 
     curl -L -O http://goo.gl/9sgchs
     sudo bash 9sgchs -u 14.04
+    
+### Installing on SD Card
+
+* http://chromeos-cr48.blogspot.com/2012/12/so-you-want-chrubuntu-on-external-drive.html
 
 ### Hardware
 
@@ -16,6 +20,10 @@ Hold ESC and REFRESH keys while pressing the power button; follow prompts to com
 From http://www.reddit.com/r/chrubuntu/comments/25n5s8/touchpad_fix_for_the_dell_11_with_xubuntu_1404/
 
     wget -qO- http://pastebin.com/raw.php?i=WNhXZ1Ht | sed 's/\r//g' | sudo bash
+    
+#### Special Keys
+
+* http://www.reddit.com/r/chrubuntu/comments/29wb1k/volume_hotkeys_for_dell_11_on_ubuntu_1404/
     
 ##### References
 
@@ -33,7 +41,9 @@ From http://www.reddit.com/r/chrubuntu/comments/25n5s8/touchpad_fix_for_the_dell
 * http://www.hackingnotcracking.com/?p=125
 * http://voltron00x.com/2014/04/06/chromebooks-part-3-beyond-chrome-os-ubuntu-and-crouton/
 * https://wiki.archlinux.org/index.php/Dell_Chromebook_11
-    
+
+# Crouton
+
 ## Installing Crouton
 
     cd ~/Downloads
@@ -44,7 +54,11 @@ From http://www.reddit.com/r/chrubuntu/comments/25n5s8/touchpad_fix_for_the_dell
 
 Switch screens using ctl-alt-shift-> and ctl-alt-shift-< (not ctl+alt+-> and ctl+alt+<-
 
-### References
+## Run on Startup
+
+* https://github.com/dnschneid/crouton/issues/170
+
+## References
 
 * http://tomwwolf.com/chromebook-14-compedium/chromebook-crouton-cookbook/
 * https://github.com/dnschneid/crouton
