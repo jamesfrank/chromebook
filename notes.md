@@ -21,6 +21,9 @@ From http://www.reddit.com/r/chrubuntu/comments/25n5s8/touchpad_fix_for_the_dell
 
     wget -qO- http://pastebin.com/raw.php?i=WNhXZ1Ht | sed 's/\r//g' | sudo bash
     
+* https://bugs.launchpad.net/ubuntu/+source/linux/+bug/1290396
+* http://scottcazan.tumblr.com/post/86666983402/dell-chromebook-11-running-ubuntu-touchpad-fix
+    
 #### Special Keys
 
 * http://www.reddit.com/r/chrubuntu/comments/29wb1k/volume_hotkeys_for_dell_11_on_ubuntu_1404/
