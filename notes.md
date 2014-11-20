@@ -25,6 +25,8 @@ Run these commands to fix touchpad speed (these are supposed to be done in the a
 Fix keyboard special keys using instructions at http://www.reddit.com/r/chrubuntu/comments/1k7o1t/how_to_enable_the_volume_and_brightness_keys_on/
 
     sudo apt-get install xbacklight
+    
+Figure out a way to fix suspend
 
 Create proper user account, reboot, and remove original 'user' account
     
