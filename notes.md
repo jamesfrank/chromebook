@@ -41,6 +41,7 @@ From http://www.reddit.com/r/chrubuntu/comments/25n5s8/touchpad_fix_for_the_dell
 * http://www.hackingnotcracking.com/?p=125
 * http://voltron00x.com/2014/04/06/chromebooks-part-3-beyond-chrome-os-ubuntu-and-crouton/
 * https://wiki.archlinux.org/index.php/Dell_Chromebook_11
+* http://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/dell-chromebook-11
 
 # Crouton
 
