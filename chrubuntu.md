@@ -4,6 +4,11 @@
 
 Hold ESC and REFRESH keys while pressing the power button; follow prompts to complete transition to developer mode
 
+## Setup
+
+    curl -L -O http://goo.gl/9sgchs
+    sudo bash 9sgchs -u 14.04
+
 # Hardware
 
 ## Trackpad
