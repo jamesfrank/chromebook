@@ -1,4 +1,12 @@
-# Trackpad
+# Installation
+
+## Entering Developer Mode
+
+Hold ESC and REFRESH keys while pressing the power button; follow prompts to complete transition to developer mode
+
+# Hardware
+
+## Trackpad
 
 From http://www.reddit.com/r/chrubuntu/comments/25n5s8/touchpad_fix_for_the_dell_11_with_xubuntu_1404/
 
