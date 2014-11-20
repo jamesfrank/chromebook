@@ -28,6 +28,8 @@ Fix keyboard special keys using instructions at http://www.reddit.com/r/chrubunt
     
 Figure out a way to fix suspend
 
+* https://wiki.archlinux.org/index.php/Chromebook#Fixing_suspend
+
 Create proper user account, reboot, and remove original 'user' account
     
 Install dotfiles
