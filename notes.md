@@ -1,6 +1,6 @@
 # Entering Developer Mode
 
-Hold ESC and REFRESH keys while pressing the power button; follow prompts to complete transition to developer mode
+Hold ESC and REFRESH keys while pressing the power button; press control-d at boot screen and then follow prompts to complete transition to developer mode
 
 # Chrubuntu
 
