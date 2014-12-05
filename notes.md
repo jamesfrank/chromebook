@@ -72,6 +72,8 @@ From http://www.reddit.com/r/chrubuntu/comments/25n5s8/touchpad_fix_for_the_dell
 
 ## Installing
 
+    contrl-alt-t
+    shell
     cd ~/Downloads
     wget http://goo.gl/fd3zc
     sudo sh -e ./crouton -t trusty
