@@ -90,6 +90,7 @@ Switch screens using ctl-alt-shift-> and ctl-alt-shift-< (not ctl+alt+-> and ctl
 
 ## References
 
+* http://www.developingandstuff.com/2014/12/the-no-frills-guide-to-crouton-ubuntu.html
 * http://tomwwolf.com/chromebook-14-compedium/chromebook-crouton-cookbook/
 * https://github.com/dnschneid/crouton
 * http://www.itworld.com/article/2831260/open-source-tools/how-to-run-linux-on-a-chromebook.html
