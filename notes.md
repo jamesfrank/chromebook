@@ -74,6 +74,7 @@ From http://www.reddit.com/r/chrubuntu/comments/25n5s8/touchpad_fix_for_the_dell
 
     contrl-alt-t
     shell
+    sudo chromeos-setdevpasswd
     sudo mkdir /media/removable/Crouton/chroots
     sudo ln -s /media/removable/Crouton/chroots/ /usr/local/chroots
     cd ~/Downloads
