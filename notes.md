@@ -87,7 +87,8 @@ From http://www.reddit.com/r/chrubuntu/comments/25n5s8/touchpad_fix_for_the_dell
     sudo apt-get update
     sudo apt-get install gnome-terminal
     sudo apt-get install software-center
-    sudo apt-get install ubuntu-standard
+    
+* http://www.webupd8.org/2013/12/things-to-do-after-installing-ubuntu-on.html
 
 ## Using
 
