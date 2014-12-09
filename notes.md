@@ -80,10 +80,15 @@ From http://www.reddit.com/r/chrubuntu/comments/25n5s8/touchpad_fix_for_the_dell
     cd ~/Downloads
     wget http://goo.gl/fd3zc
     sudo sh -e ./crouton -r trusty -t unity,audio,keyboard,chrome,unity -e
-    
+    sudo startunity
+
+## After Install
+
+    sudo apt-get install ubuntu-standard
+
 ## Using
 
-Switch screens using ctl-alt-shift-> and ctl-alt-shift-< (not ctl+alt+-> and ctl+alt+<-
+Switch screens using ctl-alt-shift-forward and ctl-alt-shift-back
 
 ## Optional Tweaks
 
