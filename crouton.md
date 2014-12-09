@@ -2,11 +2,23 @@
 
 ## Installing
 
-    contrl-alt-t
-    shell
+* Format an SD card as ext4 with volume name *crouton*
+* Get to a shell on the Chromebook using control-alt-t and then typing *shell*
+* If you haven't already set a ChromeOS root password, set it using
+
     sudo chromeos-setdevpasswd
-    sudo mkdir /media/removable/Crouton/chroots
-    sudo ln -s /media/removable/Crouton/chroots/ /usr/local/chroots
+    
+* Take ownership of SD card using
+
+    chown -R chronos /media/removable/crouton
+    
+* Redirect chroot storage path to SD card using
+
+    sudo mkdir /media/removable/crouton/chroots
+    sudo ln -s /media/removable/crouton/chroots/ /usr/local/chroots
+
+* Install Crouton using
+
     cd ~/Downloads
     wget http://goo.gl/fd3zc
     sudo sh -e ./crouton -r trusty -t unity,audio,keyboard,chrome,unity -e
@@ -15,8 +27,8 @@
 ## After Install
 
     sudo apt-get update
-    sudo apt-get install gnome-terminal
-    sudo apt-get install file-roller gedit bash-completion vlc ubuntu-restricted-extras ttf-ubuntu-font-family software-center synaptic
+    sudo apt-get install gnome-terminal ttf-ubuntu-font-family
+    sudo apt-get install file-roller gedit bash-completion vlc ubuntu-restricted-extras software-center synaptic
     
 * http://www.webupd8.org/2013/12/things-to-do-after-installing-ubuntu-on.html
 
