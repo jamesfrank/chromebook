@@ -5,8 +5,10 @@
 * Format an SD card as ext4 with volume name *crouton*
 * Get to a shell on the Chromebook using control-alt-t and then typing *shell*
 * If you haven't already set a ChromeOS root password, set it using
-
-    sudo chromeos-setdevpasswd
+* 
+``` sh
+sudo chromeos-setdevpasswd
+```
     
 * Take ownership of SD card using
 
