@@ -11,7 +11,7 @@ Download and run Chrubuntu install script for Trusty
     curl -L -O http://goo.gl/9sgchs
     sudo bash 9sgchs -u 14.04
     
-Log in using username 'user' and password 'user' and conect to a wifi network
+Log in using username 'user' and password 'user' and connect to a wifi network
 
 Run script below to fix touchpad
 
